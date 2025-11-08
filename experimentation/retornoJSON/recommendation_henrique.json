@@ -1,0 +1,42 @@
+[
+  {
+    "track_name":"Did It All for Love",
+    "artist":"Phenomena",
+    "album":"Dream Runner",
+    "genre":"Hard Rock",
+    "subgenre":"Melodic Rock",
+    "similaridade":0.6146322808
+  },
+  {
+    "track_name":"Hemorrhage (In My Hands)",
+    "artist":"Fuel",
+    "album":"Something Like Human",
+    "genre":"Post-Grunge",
+    "subgenre":"Alternative Rock",
+    "similaridade":0.6108973087
+  },
+  {
+    "track_name":"Stan",
+    "artist":"Eminem",
+    "album":"The Marshall Mathers LP",
+    "genre":"Hip Hop",
+    "subgenre":"Horrorcore, Storytelling Rap",
+    "similaridade":0.5758987955
+  },
+  {
+    "track_name":"Save Me",
+    "artist":"Hanson",
+    "album":"This Time Around",
+    "genre":"Pop Rock",
+    "subgenre":"Alternative Rock, Power Pop",
+    "similaridade":0.5605529717
+  },
+  {
+    "track_name":"With Arms Wide Open",
+    "artist":"Creed",
+    "album":"Human Clay",
+    "genre":"Post-Grunge",
+    "subgenre":"Alternative Rock",
+    "similaridade":0.5537803058
+  }
+]
