@@ -1,0 +1,42 @@
+[
+  {
+    "track_name":"Sandstorm",
+    "artist":"Darude",
+    "album":"Before the Storm, Special Edition",
+    "genre":"Trance",
+    "subgenre":"Hard Trance, Progressive Trance",
+    "similaridade":0.5363371109
+  },
+  {
+    "track_name":"La Plena - W Sound 05",
+    "artist":"W Sound",
+    "album":"La Plena (W Sound 05)",
+    "genre":"Electronic",
+    "subgenre":"Afro House\/Dance",
+    "similaridade":0.5307887845
+  },
+  {
+    "track_name":"Barbra Streisand - Radio Edit",
+    "artist":"Duck Sauce",
+    "album":"Barbra Streisand",
+    "genre":"Electronic",
+    "subgenre":"Disco House",
+    "similaridade":0.518321493
+  },
+  {
+    "track_name":"One (Your Name) - Radio Edit",
+    "artist":"Swedish House Mafia",
+    "album":"One (Your Name)",
+    "genre":"Electronic",
+    "subgenre":"Progressive House",
+    "similaridade":0.5128593446
+  },
+  {
+    "track_name":"The Addams Family",
+    "artist":"Andrew Gold",
+    "album":"Halloween Howls: Fun & Scary Music",
+    "genre":"Novelty",
+    "subgenre":"Instrumental",
+    "similaridade":0.4942333201
+  }
+]
