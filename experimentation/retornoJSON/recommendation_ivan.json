@@ -1,0 +1,42 @@
+[
+  {
+    "track_name":"Home by the Sea - 2007 Remaster",
+    "artist":"Genesis",
+    "album":"Genesis (2007 Remaster)",
+    "genre":"Progressive Rock",
+    "subgenre":"Art Rock",
+    "similaridade":0.3962207911
+  },
+  {
+    "track_name":"The Happiest Days of Our Lives",
+    "artist":"Pink Floyd",
+    "album":"The Wall",
+    "genre":"Progressive Rock",
+    "subgenre":"Art Rock",
+    "similaridade":0.3917606359
+  },
+  {
+    "track_name":"Losing My Religion",
+    "artist":"R.E.M.",
+    "album":"Out Of Time (25th Anniversary Edition)",
+    "genre":"Alternative Rock",
+    "subgenre":"Jangle Pop",
+    "similaridade":0.3771383306
+  },
+  {
+    "track_name":"Sultans Of Swing",
+    "artist":"Dire Straits",
+    "album":"Dire Straits",
+    "genre":"Rock",
+    "subgenre":"Blues Rock",
+    "similaridade":0.3642039998
+  },
+  {
+    "track_name":"The Fate of Ophelia",
+    "artist":"Taylor Swift",
+    "album":"The Life of a Showgirl",
+    "genre":"Pop",
+    "subgenre":"Folk Pop",
+    "similaridade":0.3630003366
+  }
+]

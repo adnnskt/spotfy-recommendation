@@ -1,0 +1,42 @@
+[
+  {
+    "track_name":"Right Above It",
+    "artist":"Lil Wayne",
+    "album":"I Am Not A Human Being",
+    "genre":"Hip Hop",
+    "subgenre":"Trap",
+    "similaridade":0.2145806757
+  },
+  {
+    "track_name":"Então Toma",
+    "artist":"Emicida",
+    "album":"Emicidio",
+    "genre":"Hip Hop",
+    "subgenre":"Brazilian Hip Hop",
+    "similaridade":0.1840682711
+  },
+  {
+    "track_name":"All I Do Is Win (feat. T-Pain, Ludacris, Snoop Dogg & Rick Ross)",
+    "artist":"DJ Khaled",
+    "album":"Victory",
+    "genre":"Hip Hop",
+    "subgenre":"Trap",
+    "similaridade":0.1747217616
+  },
+  {
+    "track_name":"Party Up",
+    "artist":"DMX",
+    "album":"...And Then There Was X",
+    "genre":"Hip Hop",
+    "subgenre":"Hardcore Hip Hop",
+    "similaridade":0.164124115
+  },
+  {
+    "track_name":"The Next Episode",
+    "artist":"Dr. Dre",
+    "album":"2001",
+    "genre":"Hip Hop",
+    "subgenre":"Gangsta Rap, G-Funk, West Coast Hip Hop",
+    "similaridade":0.1593256656
+  }
+]
