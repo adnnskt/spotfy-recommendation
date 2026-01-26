@@ -32,23 +32,6 @@ df_enriched = load_enriched()
 
 st.set_page_config(page_title="Spotify Dashboard", layout="wide")
 
-# Customização do tema das abas para verde Spotify
-st.markdown(
-    """
-    <style>
-    /* Cor da aba selecionada */
-    .stTabs [data-baseweb="tab"]:not([aria-selected="true"]) {
-        color: #1DB954;
-    }
-    .stTabs [data-baseweb="tab"][aria-selected="true"] {
-        background-color: #1DB95411;
-        color: #ffffff;
-        border-bottom: 3px solid #1DB954;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 tabs = st.tabs(["Recomendações", "Base de músicas global"])
 
 with tabs[0]:
@@ -57,16 +40,19 @@ with tabs[0]:
     selected_user = st.selectbox("Selecione o usuário para visualizar recomendações:", usuarios)
     user_df = df[df["usuario"] == selected_user]
     st.dataframe(user_df)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     if "genre" in user_df.columns:
         genero_counts = user_df["genre"].value_counts().reset_index()
         genero_counts.columns = ["Gênero", "Quantidade"]
         fig_pie_genero = px.pie(genero_counts, names="Gênero", values="Quantidade", title="Gêneros mais recomendados")
         st.plotly_chart(fig_pie_genero)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     if "genre" in user_df.columns and "similaridade" in user_df.columns:
         sim_por_genero = user_df.groupby("genre")["similaridade"].mean().reset_index()
         sim_por_genero.columns = ["Gênero", "Similaridade Média"]
         fig_bar = px.bar(sim_por_genero, x="Gênero", y="Similaridade Média", title="Similaridade média por gênero", color_discrete_sequence=["#1DB954"])
         st.plotly_chart(fig_bar)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     if "subgenre" in user_df.columns:
         subgenero_counts = user_df["subgenre"].value_counts().reset_index()
         subgenero_counts.columns = ["Subgênero", "Quantidade"]
@@ -82,6 +68,7 @@ with tabs[1]:
     else:
         filtered_df = df_enriched[df_enriched["playlist"] == selected_playlist]
     st.dataframe(filtered_df)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     # Gráficos de treemap com percentual no hover
     if "genre" in filtered_df.columns:
         genero_counts = filtered_df["genre"].value_counts(normalize=False).reset_index()
@@ -99,6 +86,7 @@ with tabs[1]:
             hovertemplate='<b>%{label}</b><br>Percentual: %{customdata[0]:.2f}%<extra></extra>'
         )
         st.plotly_chart(fig_treemap_genero)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     if "subgenre" in filtered_df.columns:
         subgenero_counts = filtered_df["subgenre"].value_counts(normalize=False).reset_index()
         subgenero_counts.columns = ["Subgênero", "Quantidade"]
@@ -115,6 +103,7 @@ with tabs[1]:
             hovertemplate='<b>%{label}</b><br>Percentual: %{customdata[0]:.2f}%<extra></extra>'
         )
         st.plotly_chart(fig_treemap_subgenero)
+    st.markdown('<hr style="border:2px solid #1DB954; margin: 1.5em 0;">', unsafe_allow_html=True)
     # Gráficos de barras (histograma)
     col1, col2, col3 = st.columns(3)
     with col1:
